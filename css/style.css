@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* COMMON ELEMENT DESIGN */
+
+.greenBtnDesign {
+  font-size: 15px;
+  padding: 15px 40px;
+  background-color: #8bb7a2;
+  border: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.serviceImage {
+  height: 500px;
+  width: 530px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.serviceSectionHeading {
+  margin: 15% 0 0 0;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.serviceSectionDescription {
+  margin: 7% 0 0 0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #424242;
+}
+
+.serviceSectionBtn {
+  margin: 7% 0 0 0;
+}
+
+.teamImage {
+  height: 400px;
+  width: 350px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* HEADER SECTION */
+
+.headerSection {
+  height: 100vh;
+  background-color: #636c79;
+}
+
+/* NAVBAR SECTION */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navbar > img {
+  height: 45px;
+  margin: 3% 0 0 4%;
+}
+
+.navbar > .listItems {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin: 0 2% 0 0;
+}
+
+.navbar > .listItems > .listItem {
+  margin: 25px 20px 0 20px;
+  list-style: none;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.navbar > button {
+  margin: 16px 4% 0 0;
+  background: transparent;
+  border: 1px solid #787d85;
+  padding: 7px 35px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* CONTENT SECTION */
+.contentSection {
+  margin: 6% 9% 0 9%;
+}
+
+.contentSection > .leftContentSection {
+  display: inline;
+}
+
+.contentSection > .leftContentSection > img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.contentSection > .rightContentSection {
+  float: right;
+  width: 40%;
+  margin: 2% 0 0 0;
+}
+
+.contentSection > .rightContentSection > h1 {
+  font-size: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.contentSection > .rightContentSection > p {
+  margin: 30px 0 40px 0;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #cccccc;
+}
+
+.contentSection > .rightContentSection > div {
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentSection > .rightContentSection > div > i {
+  margin: 0 7px 0 10px;
+}
+
+.contentSection > .rightContentSection > div > input {
+  flex: 1;
+  font-size: 15px;
+  color: #787d85;
+  height: 40px;
+  border: none;
+}
+
+.contentSection > .rightContentSection > div > input:focus {
+  outline: none;
+}
+
+.contentSection > .rightContentSection > div > button {
+  margin: 0 7px 0 0;
+}
+
+/* ACHIEVEMENT SECTION */
+.achievementSection {
+  margin: 7% 7% 0 7%;
+  width: 86%;
+}
+
+.achievementSection > h1 {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.achievementSection > .achievementNumbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4% 0 0 0;
+}
+
+.achievementSection > .achievementNumbers > div > h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.achievementSection > .achievementNumbers > div > p {
+  margin: 7px 0 0 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #424242;
+}
+
+.achievementSection > img {
+  margin: 4% auto 0 auto;
+  display: block;
+  height: 550px;
+  width: 86%;
+  object-fit: cover;
+}
+
+/* SERVICE SECTION */
+.serviceSection {
+  margin: 7% 7% 4% 7%;
+}
+
+.serviceSection > h1 {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+/* DEVELOPMENT SECTION */
+.serviceSection > .development {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0 0 0;
+}
+
+.serviceSection > .development > .leftSection {
+  width: 40%;
+}
+
+/* STRATERGY SECTION */
+.serviceSection > .strategies {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0 0 0;
+}
+
+.serviceSection > .strategies > .rightSection {
+  width: 40%;
+}
+
+.serviceSection > .strategies > .leftSection > .serviceImage {
+  object-position: top;
+}
+
+/* ENGAGMENT SECTION */
+.serviceSection > .engagment {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0 0 0;
+}
+
+.serviceSection > .engagment > .leftSection {
+  width: 40%;
+}
+
+.serviceSection > .engagment > .rightSection > .serviceImage {
+  object-position: center;
+}
+
+/* TEAM SECTION */
+.teamSection {
+  margin: 7% 7% 0 7%;
+}
+
+.teamSection > .contentSection {
+  margin: 0;
+  width: fit-content;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teamSection > .contentSection > h1 {
+  font-size: 40px;
+  width: 30%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.teamSection > .contentSection > p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 34%;
+  color: #42434b;
+}
+
+.teamCardSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0 0 0;
+}
+
+.teamCardSection > .card > h1 {
+  margin: 3% 0 0 0;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.teamCardSection > .card > p {
+  margin: 3% 0 0 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #42434b;
+}
+
+.card {
+  width: 350px;
+}
+
+.teamSection > .teamSectionBtn {
+  margin: 4% 0 0 0;
+  position: relative;
+  left: 50%;
+}
+
+/* FOTTER SECTION */
+.footerSection {
+  margin: 7% 0 0 0;
+  background-color: #0c1622;
+  height: 500px;
+}
+
+.footerSection > .socialMediaSection {
+  margin: 4% 7% 0 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerSection > .socialMediaSection > img {
+  height: 40px;
+  margin: 4% 0 0 0;
+}
+
+.footerSection > .socialMediaSection > .socialIcon {
+  margin: 4% 0 0 0;
+  display: flex;
+}
+
+.footerSection > .socialMediaSection > .socialIcon > div {
+  background-color: #242d38;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 20px;
+}
+
+i {
+  color: #ffffff;
+}
+
+.footerSection > .horizontalLine {
+  margin: 4% 7% 0 7%;
+  height: 1.5px;
+  width: 86%;
+  background-color: #242d38;
+}
+
+.footerSection > .linksSection {
+  margin: 4% 7% 0 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSection > .linksSection > div > h1 {
+  margin: 0 0 10% 0;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.footerSection > .linksSection > div > .listItems > .listItem {
+  margin: 0 0 20px 0;
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #b1b1b1;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 481px) {
+  .menuIcon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  /* COMMON ELEMENT DESIGN */
+  .greenBtnDesign {
+    padding: 10px 30px;
+  }
+
+  .serviceImage {
+    width: 100%;
+    height: 400px;
+  }
+
+  .serviceSectionHeading {
+    margin: 2% 0 0 0;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .serviceSectionDescription {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .teamImage {
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .headerSection {
+    height: fit-content;
+  }
+
+  .navbar {
+    margin: 0 5%;
+    height: 10vh;
+    align-items: center;
+  }
+
+  .navbar > img {
+    height: 35px;
+    margin: 0;
+  }
+
+  .navbar > a {
+    font-size: 30px;
+  }
+
+  .navbar > .listItems {
+    display: none;
+  }
+
+  .navbar > button {
+    display: none;
+  }
+
+  /* CONTENT SECTION */
+  .mobileContent {
+    height: fit-content;
+    background-color: #636c79;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contentSection > .leftContentSection {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contentSection > .leftContentSection > img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .contentSection > .rightContentSection {
+    float: right;
+    width: fit-content;
+    margin: 2% 5% 4% 5%;
+  }
+
+  .contentSection > .rightContentSection > h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contentSection > .rightContentSection > p {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .contentSection > .rightContentSection > div {
+    height: 60px;
+  }
+
+  /* ACHIEVEMENT SECTION */
+  .achievementSection {
+    margin: 7% 4% 0 4%;
+    width: fit-content;
+  }
+
+  .achievementSection > h1 {
+    width: fit-content;
+    font-size: 30px;
+  }
+
+  .achievementSection > .achievementNumbers {
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+
+  .achievementSection > img {
+    height: 400px;
+    width: 100%;
+  }
+
+  /* SERVICE SECTION */
+  .serviceSection {
+    margin: 7% 5% 4% 5%;
+  }
+
+  .serviceSection > h1 {
+    width: fit-content;
+    font-size: 30px;
+  }
+
+  /* DEVELOPMENT SECTION */
+  .serviceSection > .development {
+    flex-direction: column-reverse;
+  }
+
+  .serviceSection > .development > .leftSection {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* STRATERGY SECTION */
+  .serviceSection > .strategies {
+    flex-direction: column;
+  }
+
+  .serviceSection > .strategies > .rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .serviceSection > .strategies > .leftSection > .serviceImage {
+    object-position: top;
+  }
+
+  /* ENGAGMENT SECTION */
+  .serviceSection > .engagment {
+    flex-direction: column-reverse;
+  }
+
+  .serviceSection > .engagment > .leftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .serviceSection > .engagment > .rightSection > .serviceImage {
+    object-position: center;
+  }
+
+  /* TEAM SECTION */
+  .teamSection {
+    margin: 7% 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamSection > .contentSection {
+    flex-direction: column;
+  }
+
+  .teamSection > .contentSection > h1 {
+    font-size: 30px;
+    width: fit-content;
+    text-align: center;
+  }
+
+  .teamSection > .contentSection > p {
+    font-size: 17px;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .teamCardSection {
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+  }
+
+  .teamCardSection > .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamCardSection > .card > h1 {
+    text-align: center;
+  }
+
+  .teamCardSection > .card > p {
+    text-align: center;
+  }
+
+  .teamSection > .teamSectionBtn {
+    margin: 6% 0 0 0;
+    left: 0;
+  }
+
+  /* FOTTER SECTION */
+  .footerSection {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 7% 0 0 0;
+    justify-content: space-between;
+    height: fit-content;
+  }
+
+  .footerSection > .socialMediaSection {
+    margin: 7% 5%;
+  }
+
+  .footerSection > .socialMediaSection > img {
+    margin: 0;
+  }
+
+  .footerSection > .socialMediaSection > .socialIcon {
+    margin: 0;
+  }
+
+  .footerSection > .horizontalLine {
+    margin: 4% 5% 0 5%;
+    width: 90%;
+  }
+
+  .footerSection > .linksSection {
+    margin: 3% 5% 0 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
